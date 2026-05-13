@@ -188,7 +188,7 @@ document.querySelectorAll(".nav-links a, .download-btn, .send-btn").forEach((el)
       {/* RIGHT SIDE */}
       <div className="hero-right">
         <div className="name-model">
-          <BlenderViewer urls = {["/rlogo.glb", "/python.glb","/react.glb","/csharp.glb","/cplusplus.glb","/blender.glb"]} />
+          <BlenderViewer urls = {["/rlogo.glb", "/python.glb","/react.glb","/csharp.glb","/cplusplus.glb","/blender.glb","/unity.glb", "/ae.glb", "/cc.glb", "/pr.glb", "/ps.glb"]} />
         </div>
       </div>
 
@@ -203,13 +203,13 @@ document.querySelectorAll(".nav-links a, .download-btn, .send-btn").forEach((el)
             <h2 className="section-title">About Me</h2>
             <div className="about-grid">
               <div className="about-bio">
-                <p> I love doing hard things. I am currently a third year student at Wilfrid Laurier University, who wants to try everything. I am currently working as a VR Software Engineer for my university, previously wrapping up a Digital Media Internship with the Brampton Steelheads Hockey Club.</p>
+                <p> I love learning hard things, and I hate weekends. I am currently a third year student at Wilfrid Laurier University, who wants to try everything. I am currently working as a VR Software Engineer for my university, previously wrapping up a Digital Media Internship with the Brampton Steelheads Hockey Club.</p>
                 <p>Outside of work, I love watching sports, hiking, and playing the guitar. </p>
               </div>
               <div className="skills-panel">
                 <h3 className="label">Key Proficiencies</h3>
                 <div className="skills-flex">
-                  {["React", "Node.js", "Python", "Java", "SQL", "Unity", "C++", "C#", "XR Design", "Blender", "R "].map(s => (
+                  {["React", "Node.js", "Python", "Java", "SQL", "Unity", "C++", "C#", "XR Design", "Blender", "R ", "After Effects", "Premiere Pro", "Photoshop", "steam"].map(s => (
                     <span className="skill-chip" key={s}>{s}</span>
                   ))}
                 </div>
