@@ -5,7 +5,7 @@ import emailjs from "@emailjs/browser";
 // ── Replace these with your EmailJS credentials ──
 const SERVICE_ID  = "service_ywb137i";
 const TEMPLATE_ID = "template_9ngbj6l";
-const PUBLIC_KEY  = "YrZ2ztZpS8y8ycITCi";
+const PUBLIC_KEY  = "rZ2ztZpS8y8ycITCi";
 
 export default function ContactForm() {
   const formRef = useRef();
