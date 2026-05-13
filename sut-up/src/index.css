@@ -202,16 +202,22 @@ nav {
 }
 .project-card:hover { transform: translateY(-10px); background: rgba(255,255,255,0.06); border-color: var(--blue); }
 .muted { color: var(--muted); margin-top: 0.5rem; }
-.project-thumb{
+.project-thumb {
   width: 100%;
-  height: 180px;
-  background: linear-gradient(135deg, #1a0026, #0a001a);
-  border-radius: 14px;
+  height: 220px;
+
+  object-fit: cover;
+
+  border-radius: 18px;
+
+  display: block;
+
+  overflow: hidden;
+
+  background: #111;
+
   border: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+
   margin-bottom: 1.5rem;
 }
 /* ── BUTTONS & INTERACTIVE ── */

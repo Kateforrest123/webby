@@ -308,18 +308,42 @@ document.querySelectorAll(".nav-links a, .download-btn, .send-btn").forEach((el)
           <p className="muted">Collaborative study platform for students.</p>
         </div>
         <div className="project-card">
-           <img src = "blue-background.png" className="project-thumb" />
+           <video
+            className="project-thumb"
+            autoPlay
+            muted
+            loop
+            playsInline
+              >
+            <source src="/inprogresslogo.mp4" type="video/mp4" />
+          </video>
           <h3>Brandyline</h3>
-          <p className="muted">Brand identity toolkit and pipeline tool.</p>
+          <p className="muted">Indicated to provide insight into the line wait time at one of toronto's most popular retail store in Queen St West: Brandy Melville</p>
         </div>
         <div className="project-card">
-           <img src = "blue-background.png" className="project-thumb" />
+           <video
+            className="project-thumb"
+            autoPlay
+            muted
+            loop
+            playsInline
+              >
+            <source src="/inprogresslogo.mp4" type="video/mp4" />
+          </video>
           <h3>Sportest</h3>
           <p className="muted">Sports analytics and testing dashboard.</p>
           </div>
 
         <div className="project-card">
-           <img src = "blue-background.png" className="project-thumb" />
+           <video
+            className="project-thumb"
+            autoPlay
+            muted
+            loop
+            playsInline
+              >
+            <source src="/inprogresslogo.mp4" type="video/mp4" />
+          </video>
           <h3>Marketing analytics software</h3>
           <p className="muted">Takes data from tiktoks and predicts upcoming trends immediatley and like comes up with ideas for what to create next.</p>
           
