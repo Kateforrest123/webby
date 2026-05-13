@@ -159,7 +159,7 @@ function App() {
             <a href="#experience" onClick={handleNavClick}>Experience</a>
             <a href="#projects"   onClick={handleNavClick}>Projects</a>
             <a
-              href="https://drive.google.com/file/d/1NxKE6YHlGgvOdHigJB9qCwPndrStbFMu/view?usp=share_link"
+              href="https://drive.google.com/file/d/1dUFgtjw2imEvzTG6B4Z5-U61yxk3xa_p/view?usp=sharing"
               target="_blank" rel="noopener noreferrer"
               onClick={handleNavClick}
             >Resume</a>
